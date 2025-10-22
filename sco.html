@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>css display properties and values</title>
+  <style>
+  h1{
+  background-color:red;
+    border:2px solidgreen;
+    padding:5px;
+    margin:5px;
+  }
+  h2{
+    color: blue;
+    fontsize:12;
+    padding:3px;
+  }
+  h3{
+    color:orange;
+    fontsize:12;
+    padding:4px;
+  p{
+    color: green;
+    fontsize:10px;
+    padding:5px;
+  }
+  h3{
+   .block
+    display:block;
+    width:250px;
+     backround-color:orange;
+  }
+    {
+  .inline
+    display:inline;
+    width:250px;
+   background-color: green;
+  }
+    .inline block{
+      display:inline-block;
+      width:120px;
+      height:60px;
+      background-color:green;
+    }
+    .flex{
+      display;flex;
+      gap:10px;
+      background-color:blue;
+      padding:10px;
+    }
+    .inline-flex{
+      display:inline-flex container;
+      gap:10px;
+      color:color;
+      padding:10px;
+    }
+    .grid{
+      display:grid;
+      grid-template columns:1fr 1fr;
+      gap: 10px;
+      bqckground-color:yellow;
+      padding:10px;
+    }
+    .inline-grid{
+      display:inline-grid;
+      grid-template-columns:1fr 1fr;
+      gap:10px;
+      color:orange;
+      padding:10px;
+    }
+    .table{
+      display:table;
+      border-collapse:collapse;
+      width:300px;
+     color:orange;
+    }
+    .table-row{
+      display:table-row;
+    }
+    .table-cell{
+      display:table-cell;
+      border:1px solid black;
+      padding:5px;
+    }
+    .list-item{
+      display:list-item;
+      list-style-type:square;
+      margin-left:20px;
+    }
+    .none{
+      display:none;
+    }
+    
+  </style>
+</head>
+<body>
+  <h1> css display properties </h1>
+  <h2>
+    css properties like block element,inlone element,
+    inline block elements and others
+  </h2>
+  <p> the css examples flex example, grid example and others</p>
+  <h3>box block</h3>
+  <p>the element takes a full width an takes a new line</p>
+    <div class="box block">display: block</div>
+  
+  <h2>inline box</h2>
+  <p>the element only takesup as much width as its content</p>
+   <div class="box inline-block">display:inline block</div>
+  <h2>flex container </h2>
+  <div class="flex"</div>
+  <div class="box">flex 1</div>
+  
+  <h3>inline-flex container</h3>
+  <p>this display the element as flex containers or box</p>
+  <span class="inline-flex"</span>
+  <div class="box"A</div>
+  
+  <h2>grid container</h2>
+  <p>displays the element as grid container</p>
+  
+  <h3>inline grid container</h3>
+  <p>inline version of grid<span class="inland-grid">
+    <div class="box">x</div>
+  </span>makes aline level grid container</p>
+  
+  <h3>table display</h3>
+  <div class="table">
+    <div class="table-row">
+      <table-row> name </table-row><table-row> age </table-row>
+      
+     </div>
+    <div class=" table-column">
+      <table-column> scovia </table-row><table-column> 20 </table-column>
+  
+    </div>
+    
+    <h2>list-item display</h2>
+    <div class="box list-item">display list-item</div>
+    <div class="box list-item">another list item</div>
+    
+    <h2>display:none(hidden)</h2>
+    <div class="box none">you cannot define it display:none</div>
+  
+  </body>
+</html>
