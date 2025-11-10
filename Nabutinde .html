@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My School Project</title>
+  <style>
+    /* === Basic Reset === */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom right, #ffdee9, #b5fffc);
+      color: #333;
+    }
+
+    /* === Navbar === */
+    header {
+      background: linear-gradient(90deg, #ff6f61, #6a5acd);
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      color: yellow;
+      font-size: 2em;
+      margin-bottom: 5px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    /* === Hero Section === */
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(120deg, #6a5acd, #00bcd4);
+      color: white;
+    }
+
+    .hero img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 5px solid white;
+      margin-bottom: 20px;
+    }
+
+    .hero h2 {
+      font-size: 2em;
+      color:red;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      margin-top: 10px;
+      color:orange;
+    }
+
+    /* === About Section === */
+    .about {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .about h2 {
+      color: #ff6f61;
+      margin-bottom: 20px;
+    }
+
+    .about p {
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.6;
+      color:black;
+    }
+
+    /* === Gallery Section === */
+    .gallery {
+      padding: 40px 20px;
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+
+    .gallery h2 {
+      color: #ff6f61;
+      margin-bottom: 20px;
+ 
+    }
+
+    .gallery img {
+      width: 240px;
+      height: 200px;
+      object-fit: cover;
+      margin: 10px;
+      border-radius: 15px;
+      border: 3px solid #ff6f61;
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    /* === Contact Section === */
+    .contact {
+      padding: 40px 20px;
+      text-align: center;
+      background: linear-gradient(90deg, #00bcd4, #6a5acd);
+      color: white;
+    }
+
+    .contact h2 {
+      margin-bottom: 20px;
+      color: violet;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background: white;
+      color: #6a5acd;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .contact a:hover {
+      background: #ffd700;
+      color: #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #333;
+      color: white;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MY SCHOOL PROJECT
+      uganda marytyrs web technologies
+      
+    </h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <img src="https://via.placeholder.com/540*960.jpg" alt="my own image">
+    <h2>Welcome to My School Project</h2>
+    <p>This is a colorful and professional website designed using only HTML and CSS.</p>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About This Project</h2>
+    <p>
+      This school project demonstrates the use of HTML and CSS to build a single-page
+      colorful and professional website. It includes navigation, images, and links to
+      show creativity and design skills.
+    </p>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <h2>Gallery</h2>
+    <img src="https://via.placeholder.com/540x960.jpg" alt="Gallery Image 1">
+    <img src="https://via.placeholder.com/540x960.jpg" alt="Gallery Image 2">
+    <img src="https://via.placeholder.com/540x960.jpg" alt="Gallery Image 3">
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <h2>on 0741585406</h2> 
+    <a href="nabutindescovia@gmail.com">Email</a>
+    <a href="https://www.google.com" target="_blank">Visit Google</a>
+  </section>
+
+  <footer>
+    &copy; Nabutinde scovia's School Project. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
